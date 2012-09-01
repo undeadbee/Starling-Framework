@@ -1,15 +1,5 @@
 // =================================================================================================
 //
-//	Starling Framework
-//	Copyright 2011 Gamua OG. All Rights Reserved.
-//
-//	This program is free software. You can redistribute and/or modify it
-//	in accordance with the terms of the accompanying license agreement.
-//
-// =================================================================================================
-
-// =================================================================================================
-//
 //	Starling 框架
 //	版权信息  2012 Gamua OG. 所有权利保留.
 //
@@ -25,7 +15,6 @@ package starling.core
     import starling.display.Sprite;
     import starling.textures.Texture;
     
-    /** The TouchMarker is used internally to mark touches created through "simulateMultitouch". */
 	/** TouchMarker在内部使用，它标记 触摸是通过"simulateMultitouch"创建的. */
     internal class TouchMarker extends Sprite
     {
