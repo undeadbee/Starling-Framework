@@ -8,6 +8,15 @@
 //
 // =================================================================================================
 
+// =================================================================================================
+//
+//	Starling 框架
+//	版权信息  2012 Gamua OG. 所有权利保留.
+//
+//	这个程序是免费软件. 你可以在协议范围内自由修改和再发布.
+//
+// =================================================================================================
+
 package starling.core
 {
     import flash.geom.Point;
@@ -17,6 +26,7 @@ package starling.core
     import starling.textures.Texture;
     
     /** The TouchMarker is used internally to mark touches created through "simulateMultitouch". */
+	/** TouchMarker在内部使用，它标记 触摸是通过"simulateMultitouch"创建的. */
     internal class TouchMarker extends Sprite
     {
         [Embed(source="../../assets/touch_marker.png")]
@@ -64,7 +74,7 @@ package starling.core
         {
             mCenter.x = x;
             mCenter.y = y;
-            moveMarker(realX, realY); // reset mock position
+            moveMarker(realX, realY); // 重置模拟地址
         }
         
         private function get realMarker():Image { return getChildAt(0) as Image; }
